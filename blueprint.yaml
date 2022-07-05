@@ -307,5 +307,5 @@ policies:
   scalable_compute_policy:
     type: cloudify.policies.scaling
     properties:
-      default_instances: 1
+      default_instances: 2
     targets: [scalable_compute]
